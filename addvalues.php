@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -40,14 +39,14 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#">
-                  <span data-feather="file">(current)</span>
+                <a class="nav-link" href="management.php">
+                  <span data-feather="file"></span>
                   Management
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="addvalues.php">
-                  <span data-feather="shopping-cart"></span>
+                <a class="nav-link  active" href="#">
+                  <span data-feather="shopping-cart">(current)</span>
                   Add Values
                 </a>
               </li>

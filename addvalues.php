@@ -54,7 +54,47 @@
           </div>
         </nav>
 
-        
+         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+           
+
+           <h2>Products</h2>
+           <div class="table-responsive">
+             <table class="table table-striped table-sm">
+               <thead>
+                 <tr>
+                   <th>#</th>
+                   <th>Product ID</th>
+                   <th>Counter</th>
+				   <th>Add Product</th>
+				   <th>Delete Product</th>
+                 </tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td>1</td>
+                   <td>Coca-Cola</td>
+                   <td>10</td>
+				   <td><button type="button" class="btn btn-primary">Add Product</button></td>
+				   <td><button type="button" class="btn btn-danger">Delete Product</button></td>
+                 </tr>
+                 <tr>
+                   <td>2</td>
+                   <td>Pepsi</td>
+                   <td>12</td>
+				   <td><button type="button" class="btn btn-primary">Add Product</button></td>
+				   <td><button type="button" class="btn btn-danger">Delete Product</button></td>
+                 </tr>
+                 <tr>
+                   <td>3</td>
+                   <td>Fanta</td>
+                   <td>2</td>
+				   <td><button type="button" class="btn btn-primary">Add Product</button></td>
+				   <td><button type="button" class="btn btn-danger">Delete Product</button></td>
+                 </tr>
+               </tbody>
+             </table>
+           </div>
+         </main>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

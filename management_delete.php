@@ -19,7 +19,7 @@ echo $sql;
 
 
 if ($con->query($sql) === TRUE) {
-    header('Location: management.php');
+    echo "<script> window.location.replace('management.php') </script>";
 } else {
     echo "Error deleting record: " . $con->error;
 }

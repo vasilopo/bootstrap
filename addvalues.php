@@ -87,7 +87,7 @@ while($row = $result->fetch_assoc()){
 
 $number += 1;
 
-echo "<tr><td>".$number."</td><td>".$row["ProductID"]."</td><td>".$row["Counter"].'</td><td><button type="button" class="btn btn-primary">Add Counter</button></td><td><button type="button" class="btn btn-danger">Delete Product</button></td></tr>';
+echo "<tr><td>".$number."</td><td>".$row["ProductID"]."</td><td>".$row["Counter"].'</td><td><form action="add_counter.php" method="POST"><input type="submit" class="btn btn-primary" name="add_counter" value='.$row["ProductID"].'></td><td><input type="submit" class="btn btn-danger" name="reduce_counter" value='.$row["ProductID"].'></form></td></tr>';
 
 }
 

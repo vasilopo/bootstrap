@@ -70,27 +70,32 @@
                  </tr>
                </thead>
                <tbody>
-                 <tr>
-                   <td>1</td>
-                   <td>Coca-Cola</td>
-                   <td>10</td>
-				   <td><button type="button" class="btn btn-primary">Add Counter</button></td>
-				   <td><button type="button" class="btn btn-danger">Reduce Counter</button></td>
-                 </tr>
-                 <tr>
-                   <td>2</td>
-                   <td>Pepsi</td>
-                   <td>12</td>
-				   <td><button type="button" class="btn btn-primary">Add Counter</button></td>
-				   <td><button type="button" class="btn btn-danger">Reduce Counter</button></td>
-                 </tr>
-                 <tr>
-                   <td>3</td>
-                   <td>Fanta</td>
-                   <td>2</td>
-				   <td><button type="button" class="btn btn-primary">Add Counter</button></td>
-				   <td><button type="button" class="btn btn-danger">Reduce Counter</button></td>
-                 </tr>
+				   
+				   
+<?php
+
+require_once("db_connection/db_connect.php");
+
+$sql = "SELECT * FROM Items";
+$result = $con->query($sql);
+
+if($result->num_rows > 0){
+
+$number = 0;
+
+while($row = $result->fetch_assoc()){
+
+$number += 1;
+
+echo "<tr><td>".$number."</td><td>".$row["ProductID"]."</td><td>".$row["Counter"].'</td><td><button type="button" class="btn btn-primary">Add Counter</button></td><td><button type="button" class="btn btn-danger">Delete Product</button></td></tr>';
+
+}
+
+}
+
+
+?>		 
+               
                </tbody>
              </table>
            </div>

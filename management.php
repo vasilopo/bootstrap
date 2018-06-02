@@ -105,10 +105,10 @@ $con->close();
 		  <br><br>
 		  <h2>Add Product to Database</h2>
 		  
-		  <form>
+		  <form action="new_drink.php" method="POST">
 		    <div class="form-group">
 		      <label for="exampleInputEmail1">Product ID</label>
-		      <input type="text" class="form-control" id="productid" placeholder="Product ID">  
+		      <input type="text" name="productid" class="form-control" placeholder="Product ID">  
 		    </div>
 		    <button type="submit" class="btn btn-primary">Submit</button>
 		  </form>

@@ -74,22 +74,22 @@
                    <td>1</td>
                    <td>Coca-Cola</td>
                    <td>10</td>
-				   <td><button type="button" class="btn btn-primary">Add Product</button></td>
-				   <td><button type="button" class="btn btn-danger">Delete Product</button></td>
+				   <td><button type="button" class="btn btn-primary">Add Counter</button></td>
+				   <td><button type="button" class="btn btn-danger">Reduce Counter</button></td>
                  </tr>
                  <tr>
                    <td>2</td>
                    <td>Pepsi</td>
                    <td>12</td>
-				   <td><button type="button" class="btn btn-primary">Add Product</button></td>
-				   <td><button type="button" class="btn btn-danger">Delete Product</button></td>
+				   <td><button type="button" class="btn btn-primary">Add Counter</button></td>
+				   <td><button type="button" class="btn btn-danger">Reduce Counter</button></td>
                  </tr>
                  <tr>
                    <td>3</td>
                    <td>Fanta</td>
                    <td>2</td>
-				   <td><button type="button" class="btn btn-primary">Add Product</button></td>
-				   <td><button type="button" class="btn btn-danger">Delete Product</button></td>
+				   <td><button type="button" class="btn btn-primary">Add Counter</button></td>
+				   <td><button type="button" class="btn btn-danger">Reduce Counter</button></td>
                  </tr>
                </tbody>
              </table>

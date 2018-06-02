@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -54,6 +53,59 @@
             </ul>
           </div>
         </nav>
+		
+		
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+          
+
+          <h2>Products</h2>
+          <div class="table-responsive">
+            <table class="table table-striped table-sm">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Product ID</th>
+                  <th>Counter</th>
+			   	  <th>Delete Product</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Coca-Cola</td>
+                  <td>10</td>
+			   <td><button type="button" class="btn btn-danger">Delete Product</button></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Pepsi</td>
+                  <td>12</td>
+			   <td><button type="button" class="btn btn-danger">Delete Product</button></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Fanta</td>
+                  <td>2</td>
+			   <td><button type="button" class="btn btn-danger">Delete Product</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+		  
+		  <br><br>
+		  <h2>Add Product to Database</h2>
+		  
+		  <form>
+		    <div class="form-group">
+		      <label for="exampleInputEmail1">Product ID</label>
+		      <input type="text" class="form-control" id="productid" placeholder="Product ID">  
+		    </div>
+		    <button type="submit" class="btn btn-primary">Submit</button>
+		  </form>
+		  
+		  
+		  
+        </main>
 
         
 
